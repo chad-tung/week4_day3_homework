@@ -61,10 +61,11 @@ nav ul {
 
 }
 
-.yield {
+.enroll {
     background-image: url("parchment_scroll_background.jpg");
     background-repeat: no-repeat;
     background-position: 25%;
+    background-size: 800px;
     padding-right: 25%;
     padding-left: 25%;
     height: 100%;
@@ -82,8 +83,53 @@ form {
 
 .form {
     padding: 10%;
+    font-family: "Snell Roundhand";
+    font-size: 20px;
+}
+
+option {
+    font-family: "Snell Roundhand";
 }
 
 .firstname {
     padding-top: 25%;
 }
+
+
+
+.sorting_hat {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.cell{
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sorting_hat img {
+    width: 30%;
+    height: 30%;
+}
+
+
+
+.says {
+    padding-left: 35%;
+}
+
+.shout {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 15%
+}
+
+/*@media all and (min-width: 480px) {
+    .sorting_hat {
+        flex-direction: row;
+    }
+}*/

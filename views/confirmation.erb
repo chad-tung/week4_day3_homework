@@ -1,2 +1,18 @@
-<p>Thank you for registering for Hogwarts!!</p>
-<p>We hope you are not a muggle</p>
+<div class="confirmation">
+    <div class="sorting_hat">
+        <img src="https://images.pottermore.com/bxd3o8b291gf/nt4ZV4578WQWcCUK68QIq/9538ef0e87518551344b2b930a118690/The-Sorting-Ceremony.png?w=665&h=665&fit=thumb&f=center&q=85" alt="Image of the sorting hat.">
+        <div class="cell">
+            <p class="says"><%= @student.first_name%> <%= @student.last_name%>?</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="shout"><%= @student.house.upcase()%>!!!!!!!!</p>
+        </div>
+    </div>
+    <p>Thank you for registering for Hogwarts!!</p>
+    <p>We hope you are not a muggle...</p>
+</div>

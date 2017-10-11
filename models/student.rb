@@ -59,3 +59,7 @@ class Student
     end
 
 end
+
+
+# SELECT houses.* FROM houses WHERE id = $1
+# values = [@house_id]

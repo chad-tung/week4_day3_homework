@@ -20,7 +20,7 @@ get '/hogwarts/new' do
 end
 
 post '/hogwarts/confirmation' do
-    student = Student.new(params)
-    student.save()
+    @student = Student.new(params)
+    @student.save()
     erb( :confirmation )
 end
