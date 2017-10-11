@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hogwarts</title>
+    <link rel="stylesheet" href="/stylesheets.css"/>
 </head>
 
 <body>
+    <div class="heading">
+    <h1>Hogwarts, School of Witchcraft and Wizardry</h1>
+
+    <img src="http://www.the-leaky-cauldron.org/wp-content/uploads/assets/hogwartshouses2.jpg" alt="Image of the houses of Hogwarts">
+    </div>
 
     <nav>
         <ul>
-            <li><a href="/hogwarts">Home</a></li>
-            <li><a href="/hogwarts/view_students">Students</a></li>
-            <li><a href="/hogwarts/new">Enroll</a></li>
+            <div class="navigation">
+                <li><a href="/hogwarts">Home</a></li>
+                <li><a href="/hogwarts/view_students">Students</a></li>
+                <li><a href="/hogwarts/new">Enroll</a></li>
+            </div>
         </ul>
     </nav>
-
-    <%= yield %>
-
+    <div class="yield">
+        <%= yield %>
+    </div>
 </body>
 </html>
